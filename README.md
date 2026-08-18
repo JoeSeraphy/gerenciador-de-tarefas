@@ -43,7 +43,7 @@ O backend foi construído seguindo os princípios de **Clean Architecture** e **
 ---
 
 ### **1. Clonar o Repositório**
-
-```bash
-git clone [https://github.com/JoeSeraphy/gerenciador-de-tarefas](https://github.com/JoeSeraphy/gerenciador-de-tarefas)
+ ```bash
+git clone https://github.com/JoeSeraphy/gerenciador-de-tarefas
 cd gerenciador-de-tarefas
+``
