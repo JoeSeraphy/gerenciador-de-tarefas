@@ -13,9 +13,7 @@ import { ensureAuthenticated } from './middlewares/ensure-authenticated';
 
 const app = express();
 app.use(express.json());
-app.use(cors({
-    origin: 'http://localhost:3000'
-}));
+app.use(cors());
 
 const authRepository = new AuthRepository();
 const authService = new AuthService(authRepository);
